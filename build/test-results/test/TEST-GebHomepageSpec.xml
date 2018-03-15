@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GebHomepageSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-15T11:48:01" hostname="Moro" time="17.954">
+  <properties/>
+  <testcase name="can access The Book of Geb via homepage" classname="GebHomepageSpec" time="17.954"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1521114481952	geckodriver	INFO	geckodriver 0.20.0
+1521114481961	geckodriver	INFO	Listening on 127.0.0.1:45706
+1521114482797	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Moroq\\AppData\\Local\\Temp\\rust_mozprofile.GxL8ueQ860nE"
+1521114483208	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1521114484605	Marionette	INFO	Enabled via --marionette
+[Child 12044] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400FC,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/extension-process-script.js, line 339: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+1521114491432	Marionette	INFO	Listening on port 49923
+1521114492359	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521114492418	Marionette	DEBUG	Register listener.js for window 4294967297
+Mar 15, 2018 12:48:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1521114492720	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521114493419	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521114493419	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521114495439	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://gebish.org/"
+1521114495708	Marionette	DEBUG	Received DOM event "pageshow" for "http://gebish.org/"
+1521114496184	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521114496957	Marionette	DEBUG	Received DOM event "beforeunload" for "http://gebish.org/"
+1521114497093	Marionette	DEBUG	Received DOM event "pagehide" for "http://gebish.org/"
+1521114497094	Marionette	DEBUG	Received DOM event "unload" for "http://gebish.org/"
+1521114498172	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://gebish.org/manual/current/"
+1521114498934	Marionette	DEBUG	Received DOM event "pageshow" for "http://gebish.org/manual/current/"
+]]></system-err>
+</testsuite>
